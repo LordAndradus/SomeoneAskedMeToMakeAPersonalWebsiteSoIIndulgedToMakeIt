@@ -1,0 +1,69 @@
+.main-box {
+    width: 200px;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #777 0%, #ccc 50%, #777 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.logo-box {
+    text-align: inline-block;
+    background-color: transparent;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 720px;
+    bottom: 10px;
+}
+
+.credentials {
+    margin-top: 120px;
+    text-align: center;
+    position: relative;
+}
+
+.credentials label
+.credentials input {
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+
+.credentials input[type="text"],
+.credentials input[type="password"] {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 4px;
+    background: transparent;
+}
+
+.enter-button {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.forgot-password {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.forgot-password-link:hover {
+    color: red;
+}

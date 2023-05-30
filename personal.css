@@ -1,0 +1,90 @@
+.main-box {
+    width: 200px;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #777 0%, #ccc 50%, #777 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main-box p {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.logo-container {
+    text-align: inline-block;
+    background-color: transparent;
+}
+
+.logo-small {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 660px;
+    bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+  
+.image-container {
+position: relative;
+text-align: center;
+}
+
+.image-container img {
+width: 75px;
+height: auto;
+object-fit: cover;
+}
+
+.underline {
+    bottom: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    border-bottom-color: black;
+}
+
+.arrow-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.arrow {
+    bottom: 275px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.left-arrow {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    left: 20px;
+}
+
+.right-arrow {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    right: 50px;
+}
+
+.search {
+    position: absolute;
+    transform: translate(15%, -20%);
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+}

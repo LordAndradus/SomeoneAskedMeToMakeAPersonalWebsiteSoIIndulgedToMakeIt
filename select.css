@@ -1,0 +1,90 @@
+.main-box {
+    width: 200px;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #777 0%, #ccc 50%, #777 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+
+    align-items: center;
+    justify-self: center;
+}
+
+.main-box p {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row-last {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.row button, .row-last button {
+    padding: 10px 20px;
+    background-color: darkslategray;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.logo-container {
+    text-align: inline-block;
+    background-color: transparent;
+}
+
+.logo-small {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 660px;
+    bottom: 20px;
+}
+
+.search {
+    position: absolute;
+    transform: translate(15%, -20%);
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+}
+
+.arrow-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.arrow {
+    bottom: 275px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.left-arrow {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    left: 20px;
+}
+
+.right-arrow {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    right: 50px;
+}
